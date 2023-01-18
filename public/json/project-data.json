@@ -1,0 +1,50 @@
+{
+    "loan-calculator":{
+        "image": "./public/project-media/images/loan-calculator.png",
+        "video": "./public/project-media/videos/loan-calculator.mp4",
+        "title": "Bank Calculator",
+        "description": "This project is displayed in my native language which basically has two banking related calculators ie. <b><i>Loan Interest Calculator</i></b> and <b><i>FD Interest Calculator</i></b>.",
+        "project-display": "https://bank-calculator.shraddhahande.repl.co/"
+    },
+
+    "timestamp":{
+        "image": "./public/project-media/images/timestamp.png",
+        "video": "./public/project-media/videos/timestamp.mp4",
+        "title": "Timestamp Microservices",
+        "description": "This project displays the giver input date in <b><i>Unix</i></b> and <b><i>UTC</i></b> format.",
+        "project-display": "https://timestamp-microservices.shraddhahande.repl.co/"
+    },
+
+    "header-parser":{
+        "image": "./public/project-media/images/header-parser.png",
+        "video": "./public/project-media/videos/header-parser.mp4",
+        "title": "Request Header Parser Microservies",
+        "description": "This project displays <b><i>Who Am I?</i></b> ie. <b><i>IP Address</i></b>, <b><i>Preferred Language</i></b> and <b><i>User-Agent</i></b> present in the header part of the response.",
+        "project-display": "https://header-parser-microservices.shraddhahande.repl.co/"
+    },
+
+    "file-metadata":{
+        "image": "./public/project-media/images/file-metadata.png",
+        "video": "./public/project-media/videos/file-metadata.mp4",
+        "title": "File Metadata Microservices",
+        "description": "This project displays information regarding the uploaded file ie. <b><i>file-name</i></b>, <b><i>file-size</i></b> and <b><i>file-type</i></b>.",
+        "project-display": "https://file-metadata-microservices.shraddhahande.repl.co/"
+    },
+
+    "url-shortner":{
+        "image": "./public/project-media/images/url-shortner.png",
+        "video": "./public/project-media/videos/url-shortner.mp4",
+        "title": "URL Shortner",
+        "description": "As the name suggests, This project shortens the given url. Once the given url is saved in the database, the same url can be accessed using <b><i>URL Shortner Code</i></b>",
+        "project-display": "https://url-shortner-microservices.shraddhahande.repl.co/"
+    },
+
+    "exercise-tracker":{
+        "image": "./public/project-media/images/exercise-tracker.png",
+        "video": "./public/project-media/videos/exercise-tracker.mp4",
+        "title": "Exercise Tracker",
+        "description": "This project is used to track your exercises. This project contains <b><i>3</i></b> modules. <ul><li>First module adds new user to the database</li><li>Second module adds exercises to the database</li><li>Third module fetchs user logs from the database</li></ul> ",
+        "project-display": "https://Excersice-Tracker.shraddhahande.repl.co/"
+    }
+}
+

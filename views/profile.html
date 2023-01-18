@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hande Shraddha Suresh</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="../public/css/profile.css" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Navigation Elements -->
+  <ul class="fixed-top nav nav-tabs justify-content-start bg-body-tertiary" role="tablist" id="navigate">
+    <li class="nav-item" role="presentation">
+      <!-- id of button on tab section should have # -->
+      <button class="nav-link text-body-secondary" id="#intro" data-bs-toggle="tab" data-bs-target="#about-me" type="button" role="tab" aria-controls="about-me" aria-selected="true">About Me</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <!-- id of button on tab section should have # -->
+      <button class="nav-link text-body-secondary" id="#projects" data-bs-toggle="tab" data-bs-target="#projects" type="button" role="tab" aria-controls="projects" aria-selected="false">Projects</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <!-- id of button on tab section should have # -->
+      <button class="nav-link text-body-secondary" id="#contacts" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+    </li>
+  </ul>
+
+  <!-- Pages -->
+  <div class="tab-content" id="myTabContent">
+    <!-- Abour me -->
+    <div class="tab-pane fade" id="about-me" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      <div class="row align-items-center justify-content-center" id="intro">
+        <div class="col-8">
+          <h2 class="text-center">I am</h2>
+          <h1 class="fw-bold text-center">Hande Shraddha Suresh</h1>
+          <div class="card">
+            <div class="card-body">  
+              <blockquote class="blockquote mb-0 justify-self-even p-3">
+                <p>I currently work as <span style="color: #333;"><b>Quality Content Analyst</b></span> for <b><span id='full-form' data-bs-toggle="tooltip" data-bs-title="Justified Advertising Software Services India Digital Pvt Ltd">JASSIDPL</span></b>.</p>
+                <p>I like <b>JavaScript</b> and have done few projects on the same, which can be found in the <b><em>Projects</em></b> section of this webpage.</p>
+                <p class="text-decoration-underline fw-bold mb-0">Skills:</p>
+                <p>
+                  <span class="badge bg-info-subtle text-info-emphasis">HTML</span>
+                  <span class="badge bg-info-subtle text-info-emphasis">CSS</span>
+                  <span class="badge bg-info-subtle text-info-emphasis">JavaScript</span>
+                  <span class="badge bg-info-subtle text-info-emphasis">Python</span>
+                  <span class="badge bg-info-subtle text-info-emphasis">NodeJS</span>
+                  <span class="badge bg-info-subtle text-info-emphasis">Express</span>
+                  <span class="badge bg-info-subtle text-info-emphasis">MongoDB</span>
+                </p>
+                <p class="text-decoration-underline fw-bold mb-0">Tools:</p>
+                <p>
+                  <span class="badge bg-warning-subtle text-warning-emphasis">Git</span>
+                  <span class="badge bg-warning-subtle text-warning-emphasis">Jenkins</span>
+                  <span class="badge bg-warning-subtle text-warning-emphasis">Postman</span>
+                  <span class="badge bg-warning-subtle text-warning-emphasis">Visual Studio Code</span>
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <div class="row mt-5 p-5" id="project-holder">
+        <h1 class="text-center">Projects</h1>
+      </div>
+    </div>
+      
+    <!-- Contact Me -->
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+      <div class="row justify-content-center align-items-center" style="height: 100vh;">
+        <div class="col-6">
+          <h1 class="text-center mb-5">Contact Me</h1>
+          <div class="card">
+            <div class="card-body">
+                <h2>
+                  if(email){<br/>
+                    &emsp; console.info("Contact me via <a href="/email-me" style="color:#0d6efd;" data-bs-toggle="tooltip" data-bs-title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                      <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+                      <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+                    </svg></a>");
+                  <br>}<br>else{<br>
+                    &emsp;console.info("Contact me via <b><i><a href="/call-me" style="color:#0d6efd;" data-bs-toggle="tooltip" data-bs-title="Phone"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg></a></i></b>");
+                  <br> }
+                </h2>
+            </div>
+          </div>
+          <div class="mt-5 text-center">
+            <p>Find me:</p>
+              <a href="/github" target="_blank" data-bs-toggle="tooltip" data-bs-title="Github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+              </a> 
+              <a href="/replit" target="_blank" data-bs-toggle="tooltip" data-bs-title="Replit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 308">
+                <path fill="currentColor" d="M0 19.2C0 8.596 8.596 0 19.2 0h89.6C119.404 0 128 8.596 128 19.2v83.2H19.2C8.596 102.4 0 93.804 0 83.2v-64Zm128 83.2h108.8c10.604 0 19.2 8.596 19.2 19.2v64c0 10.604-8.596 19.2-19.2 19.2H128V102.4ZM0 224c0-10.604 8.596-19.2 19.2-19.2H128V288c0 10.604-8.596 19.2-19.2 19.2H19.2C8.596 307.2 0 298.604 0 288v-64Z"/>
+                </svg>
+              </a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+  <!-- Modal Element -->
+  <div class="modal fade" id="proj-video" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="project-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title text-center fs-5" id="project-title">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modal-body">
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary w-100" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../public/js/addProjects.js"  type="module" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="../public/js/refresh.js"></script>
+</body>
+</html>

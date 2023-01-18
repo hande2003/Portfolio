@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #343434;
+    font-size: 18px;
+  }
+  
+h1, h2 {
+  color: #333;
+}
+
+h1{
+  font-size: 56px;
+}
+  
+#intro, #projects, #contacts{
+  height: 100vh;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  background-color: #333;
+  color: var(--bs-light-border-subtle) !important;
+}
