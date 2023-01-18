@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", (e)=>{
-    let currentTab = document.getElementById(window.localStorage.getItem('id'));
+    let currentTab = document.getElementById(window.sessionStorage.getItem('id'));
     new bootstrap.Tab(currentTab).show() // Select tab by name
 })
 
 const triggerTabList = document.querySelectorAll('#navigate button')
 triggerTabList.forEach(triggerEl => {
   triggerEl.addEventListener('click', event => {
-    window.localStorage.setItem("id", triggerEl.id);
+    window.sessionStorage.setItem("id", triggerEl.id);
   })
 })
 
