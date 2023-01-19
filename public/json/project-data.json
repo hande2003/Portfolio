@@ -18,7 +18,7 @@
     "header-parser":{
         "image": "./public/project-media/images/header-parser.png",
         "video": "./public/project-media/videos/header-parser.mp4",
-        "title": "Request Header Parser Microservies",
+        "title": "Request Header Parser Microservices",
         "description": "This project displays <b><i>Who Am I?</i></b> ie. <b><i>IP Address</i></b>, <b><i>Preferred Language</i></b> and <b><i>User-Agent</i></b> present in the header part of the response.",
         "project-display": "https://header-parser-microservices.shraddhahande.repl.co/"
     },
@@ -31,11 +31,11 @@
         "project-display": "https://file-metadata-microservices.shraddhahande.repl.co/"
     },
 
-    "url-shortner":{
-        "image": "./public/project-media/images/url-shortner.png",
-        "video": "./public/project-media/videos/url-shortner.mp4",
-        "title": "URL Shortner",
-        "description": "As the name suggests, This project shortens the given url. Once the given url is saved in the database, the same url can be accessed using <b><i>URL Shortner Code</i></b>",
+    "url-shortener":{
+        "image": "./public/project-media/images/url-shortener.png",
+        "video": "./public/project-media/videos/url-shortener.mp4",
+        "title": "URL Shortener",
+        "description": "As the name suggests, This project shortens the given URL. Once the given URL is saved in the database, the same URL can be accessed using <b><i>URL Shortener Code</i></b>",
         "project-display": "https://url-shortner-microservices.shraddhahande.repl.co/"
     },
 
@@ -43,8 +43,7 @@
         "image": "./public/project-media/images/exercise-tracker.png",
         "video": "./public/project-media/videos/exercise-tracker.mp4",
         "title": "Exercise Tracker",
-        "description": "This project is used to track your exercises. This project contains <b><i>3</i></b> modules. <ul><li>First module adds new user to the database</li><li>Second module adds exercises to the database</li><li>Third module fetchs user logs from the database</li></ul> ",
+        "description": "This project is used to track your exercises. This project contains <b><i>3</i></b> modules. <ul><li>First module adds new user to the database</li><li>Second module adds exercises to the database</li><li>Third module fetches user logs from the database</li></ul> ",
         "project-display": "https://Excersice-Tracker.shraddhahande.repl.co/"
     }
 }
-
